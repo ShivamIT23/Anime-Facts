@@ -2,3 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
+main{
+    margin: 0.5vw;
+}
+
+.container1{
+    margin: 2vw 8vw 2vw 4vw;
+}
