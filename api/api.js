@@ -1,3 +1,5 @@
+let image = [];
+
 const img = async ()=>{
     const axios = require('axios');
 
@@ -12,9 +14,10 @@ const img = async ()=>{
     
     try {
         const response = await axios.request(options);
-        console.log(response.data);
+        image = response.data.images;
+        return image;
     } catch (error) {
-        console.error(error);
+      return image;
     }
 }
 img();
