@@ -12,5 +12,8 @@
   },
   "author": "Shivam Gupta",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.6.8"
+  }
 }

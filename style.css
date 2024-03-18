@@ -50,3 +50,12 @@ h1{
     font-weight: 400;
     font-style: italic;
 }
+
+.Img-box{
+    display: flex;
+    justify-content: center;
+}
+
+.Icon-Img{
+    width: 60vw;
+}
