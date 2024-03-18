@@ -2,7 +2,7 @@
   "name": "anime-facts",
   "version": "0.1.0",
   "description": "This Package is for random anime facts",
-  "main": "app.js",
+  "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
