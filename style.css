@@ -1,19 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&family=DM+Serif+Text:ital@0;1&family=Schoolbell&family=Young+Serif&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+}
+
+.navbar-brand{
+    font-size: 2.7rem;
+    font-family: "Alumni Sans Inline One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 main{
     margin: 0.5vw;
 }
 
+h1{
+    font-family: "Schoolbell", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .container1{
-    margin: 2vw 8vw 2vw 4vw;
+    margin: 1vw 4vw 1vw 2vw;
+}
+
+#quote-child{
+    margin: 1vw 4vw 1vw 3vw;
+    border-radius: 12%;
 }
 
 #quotes-text{
     background-color: aliceblue;
     color: rgb(8, 8, 8);
+    padding: 11px 28px;
+    border: 2px solid black;
+    border-radius: 12%;
     text-shadow: 1px 1px 2px #e87676, 0 0 1em #7a7ac8, 0 0 0.2em #87b8d0;
     font-size: 35px;
     font-family: "Young Serif", serif;
