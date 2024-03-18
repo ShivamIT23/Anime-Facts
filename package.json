@@ -11,5 +11,6 @@
     "url": "https://github.com/ShivamIT23/Anime-Facts"
   },
   "author": "Shivam Gupta",
-  "license": "ISC"
+  "license": "ISC",
+  "type" : "module"
 }
