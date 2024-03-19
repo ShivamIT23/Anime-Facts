@@ -10,7 +10,7 @@ export const img = async ()=>{
   
   try {
     const request = await fetch('https://any-anime.p.rapidapi.com/v1/anime/gif/1',options);
-    const response = request.json();
+    const response = await request.json();
     image = response.images;
     return image;
   } catch (error) {
